@@ -10,8 +10,8 @@ namespace GridGame
 
         private int row = 0;
         private int col = 0;
-        private char player = '░';
-        private char map = '-';
+        private char player = '@';
+        private char map = '.';
 
         private char[,] grid = new char[15, 30];
 
